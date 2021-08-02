@@ -25,7 +25,7 @@ syntax keyword dartBoolean        true false
 syntax keyword dartConstant       null
 syntax keyword dartTypedef        this super class typedef enum mixin extension
 syntax keyword dartOperator       new is as in
-syntax match   dartOperator       "+=\=\|-=\=\|*=\=\|/=\=\|%=\=\|\~/=\=\|<<=\=\|>>=\=\|[<>]=\=\|===\=\|\!==\=\|&=\=\|\^=\=\||=\=\|||\|&&\|\[\]=\=\|=>\|!\|\~\|?\|:"
+syntax match   dartOperator       "+=\=\|-=\=\|*=\=\|/=\=\|%=\=\|\~/=\=\|<<=\=\|>>=\=\|[<>]=\=\|===\=\|\!==\=\|&=\=\|\^=\=\||=\=\|||\|&&\|\[\]=\=\|=>\|!\|\~\|?\|:\|\.\."
 syntax keyword dartCoreType       void var dynamic
 syntax keyword dartStatement      return
 syntax keyword dartStorageClass   static abstract final const factory late
