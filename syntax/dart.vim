@@ -27,7 +27,7 @@ syntax keyword dartTypedef        this super class typedef enum mixin extension
 syntax keyword dartOperator       new is as in
 " Splitting up to avoid out of memory
 syntax match   dartOperator       "+=\=\|-=\=\|*=\=\|/=\=\|%=\=\|\~/=\=\|<<=\=\|>>=\=\|[<>]=\=\|===\="
-syntax match   dartOperator       "\|\!==\=\|&=\=\|\^=\=\||=\=\|||\|&&\|\[\]=\=\|=>\|!\|\~\|?\|:"
+syntax match   dartOperator       "\!==\=\|&=\=\|\^=\=\||=\=\|||\|&&\|\[\]=\=\|=>\|!\|\~\|?\|:"
 " Adding cascase operator
 syntax match   dartOperator       "\.\{2,3}"
 syntax keyword dartCoreType       void var dynamic
