@@ -18,7 +18,6 @@ syntax sync fromstart
 
 syntax case match
 
--3123.
 
 " keyword definitions
 syntax keyword dartConditional    if else switch
